@@ -1,0 +1,80 @@
+{
+ "autoname": "SRev/.#########",
+ "creation": "2019-10-24 13:32:24.382764",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sales_order",
+  "so_detail",
+  "item_code",
+  "delivery_note",
+  "dn_detail",
+  "sales_invoice",
+  "si_detail"
+ ],
+ "fields": [
+  {
+   "fieldname": "sales_order",
+   "fieldtype": "Link",
+   "label": "Sales Order",
+   "options": "Sales Order"
+  },
+  {
+   "fieldname": "so_detail",
+   "fieldtype": "Data",
+   "label": "Sales Order Detail"
+  },
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "label": "Item Code",
+   "options": "Item"
+  },
+  {
+   "fieldname": "delivery_note",
+   "fieldtype": "Link",
+   "label": "Delivery Note",
+   "options": "Delivery Note"
+  },
+  {
+   "fieldname": "dn_detail",
+   "fieldtype": "Data",
+   "label": "Delivery Note Detail"
+  },
+  {
+   "fieldname": "sales_invoice",
+   "fieldtype": "Link",
+   "label": "Sales Invoice",
+   "options": "Sales Invoice"
+  },
+  {
+   "fieldname": "si_detail",
+   "fieldtype": "Data",
+   "label": "Sales Invoice Detail"
+  }
+ ],
+ "modified": "2019-10-24 13:32:24.382764",
+ "modified_by": "Administrator",
+ "module": "Advance Payment",
+ "name": "Sales Reversal",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

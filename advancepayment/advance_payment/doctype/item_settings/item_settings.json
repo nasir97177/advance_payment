@@ -1,0 +1,56 @@
+{
+ "creation": "2019-10-24 13:24:36.789075",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "default_item_for_dp",
+  "selling_write_off_account",
+  "buying_write_off_account"
+ ],
+ "fields": [
+  {
+   "fieldname": "default_item_for_dp",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Default Item for Down Payment",
+   "options": "Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "selling_write_off_account",
+   "fieldtype": "Link",
+   "label": "Selling Write Off Account",
+   "options": "Account",
+   "reqd": 1
+  },
+  {
+   "fieldname": "buying_write_off_account",
+   "fieldtype": "Link",
+   "label": "Buying Write Off Account",
+   "options": "Account",
+   "reqd": 1
+  }
+ ],
+ "issingle": 1,
+ "modified": "2019-10-24 13:24:49.253624",
+ "modified_by": "Administrator",
+ "module": "Advance Payment",
+ "name": "Item Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
